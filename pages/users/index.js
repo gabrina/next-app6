@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 function users({ users }) {
-  console.log(users);
+  // console.log(users);
   return (
     <ul>
       {users.map((user) => (
